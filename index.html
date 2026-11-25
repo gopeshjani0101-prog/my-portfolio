@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gopesh Jani | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a class="logo" href="#home">Gopesh</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home section" id="home">
+      <div class="home-text">
+        <p class="eyebrow">Hello, welcome to my portfolio</p>
+        <h1>I'm <span>Gopesh Jani</span></h1>
+        <p class="intro">
+          I am a first-year CSE student who enjoys learning AI and building web apps.
+          I also like working with data and staying active through powerlifting.
+        </p>
+        <a class="button" href="#contact">Contact Me</a>
+      </div>
+      <img class="profile-image" src="images/profile.jpg" alt="Profile photo of Gopesh Jani">
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A little about me</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-content">
+        <p>
+          I'm Gopesh, a B.Tech student at Alard University in Pune. I am in my first
+          year of Computer Science Engineering, specialising in AI and Data Science,
+          and I expect to graduate in 2030. Alongside my degree, I am part of the
+          project-based NIAT program by NxtWave, where I am building practical skills.
+        </p>
+        <p>
+          I am interested in AI, web apps, data, powerlifting and fitness. My goal is
+          to become an AI or software engineer and build useful products that solve
+          real problems. I am taking things one project and one new skill at a time.
+        </p>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">What I am learning</p>
+        <h2>My Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">Git &amp; GitHub</div>
+        <div class="skill-card">Problem Solving</div>
+        <div class="skill-card">Data Analysis</div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Things I have been working on</p>
+        <h2>My Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="images/project1.jpg" alt="Placeholder image for the powerlifting analytics dashboard">
+          <div class="project-info">
+            <h3>Powerlifting Analytics Dashboard</h3>
+            <p>
+              A data project using the OpenPowerlifting dataset to explore lifter
+              performance and spot trends in competition results.
+            </p>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="images/project2.jpg" alt="Placeholder image for the athlete performance app">
+          <div class="project-info">
+            <h3>Athlete Performance App</h3>
+            <p>
+              An app concept for athletes to record training, follow their progress
+              and keep useful performance details in one place.
+            </p>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="images/project1.jpg" alt="Placeholder image for the free LLM API router">
+          <div class="project-info">
+            <h3>Free LLM API Router</h3>
+            <p>
+              A project idea for routing requests to free large language model APIs
+              and making it easier to try different AI tools.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Have a question or idea?</p>
+        <h2>Get in Touch</h2>
+      </div>
+      <div class="contact-details">
+        <p>Email: <a href="mailto:gopeshjani0101@gmail.com">gopeshjani0101@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/gopeshjani0101-prog" target="_blank" rel="noopener noreferrer">github.com/gopeshjani0101-prog</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/gopesh-jani-53388b42b" target="_blank" rel="noopener noreferrer">linkedin.com/in/gopesh-jani-53388b42b</a></p>
+      </div>
+      <form class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input id="full-name" name="full-name" type="text" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button class="button" type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Gopesh Jani</p>
+    <p>&copy; 2026 Gopesh Jani. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://github.com/gopeshjani0101-prog" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/gopesh-jani-53388b42b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
